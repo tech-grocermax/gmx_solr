@@ -13,3 +13,7 @@ hs_err_pid*
 
 # log files
 *.log
+
+#ignore data file
+solr/gmax_products/data/index/
+solr/gmax_products/data/tlog/
