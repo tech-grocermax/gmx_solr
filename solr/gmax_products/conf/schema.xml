@@ -163,7 +163,7 @@
 
  <field name="store_id" type="int" indexed="true" stored="true"  multiValued="false"/>
 
-<field name="name_alias_name" type="text_en_splitting" indexed="true" omitNorms="true" termVectors="true" multiValued="true"/>
+<field name="name_alias_name" type="text_general" indexed="true" omitNorms="true" termVectors="true" multiValued="true"/>
 
 <field name="is_in_stock" type="int" indexed="true" stored="true" default="0"/>
 <field name="is_jiffy" type="int" indexed="true" stored="true" default="0"/>
